@@ -1,19 +1,43 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import ReactDOM from 'react-dom';
+import Navigation from './navigation';
+ import Paragraph from './paragraph';
+ import { SecodPara,ThirdPara } from './paragraph';
+// import * as data from './paragraph';
+
+ReactDOM.render(<>
+    <Paragraph title = "this is " /> <SecodPara/> <ThirdPara/>
+    </>,document.getElementById("root") 
+);
+
+// to import everything in data object as data
+
+// ReactDOM.render(<>
+//     <data.default title = "This is a first paragraph" /> 
+//     <data.SecodPara/> 
+//     <data.ThirdPara/>
+//     </>,document.getElementById("root") 
+// );
 
 
 ReactDOM.render(
-   <>
-        <h1> heading </h1>
-        <p> hello </p>
-        <p>paragraph 1</p>
-        <p>paragraph 2</p>
-        <p>paragraph 3</p>
-    </>                                                            
-
- , document.getElementById('root')
+    <Navigation/>,document.getElementById("r")
 );
+
+// ReactDOM.render(
+//    <>
+//         <h1> heading </h1>
+//         <p> hello </p>
+//         <p>paragraph 1</p>
+//         <p>paragraph 2</p>
+//         <p>paragraph 3</p>
+//     </>                                                            
+
+//  , document.getElementById('root')
+// );
+
+
 
 /* var h1 = document.createElement("h1");
 h1.innerHTML = "Hello World"

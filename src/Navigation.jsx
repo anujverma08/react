@@ -1,8 +1,8 @@
 import React from "react";
-function Navigation(){
-    return (
+function Navigation(props){
+    return ( <>
         <nav class='nav' >
-            <span><a href= "#home">Home</a></span>
+            <span><a href= "#home">{props.title}</a></span>
             <span><a href= "#about">About Us</a></span>
             <span><a href= "#contact">Contact</a></span>
             <span><a href= "#service">Services</a></span>
@@ -12,5 +12,12 @@ function Navigation(){
             </div>
 
         </nav>
+        </>
     );
 }
+
+Navigation.defaultProps = {
+    title: "React notes" 
+}
+
+export default Navigation;
