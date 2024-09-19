@@ -1,3 +1,8 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+
+
 function Propvalidation(props) {
     return(
         <>
@@ -38,5 +43,24 @@ function Propvalidation(props) {
                 </table>
             </div>
         </>
-    )
+    );
 }
+
+Propvalidation.propTypes = {
+    propArray: PropTypes.array.isRequired,
+    propBool: PropTypes.bool.isRequired,    
+    propFunc: PropTypes.func,
+    propString: PropTypes.string,
+    propNumber: PropTypes.number
+}
+
+Propvalidation.defaultProps = {
+    propArray : [1,2,3,4,5],
+    propBool : true,
+    propFunc : function(x){return x+5},
+    propNumber : 1,
+    propString : "a"
+}
+export default Propvalidation;
+
+

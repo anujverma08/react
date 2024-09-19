@@ -1,4 +1,6 @@
 import React from "react";
+import "./navigation.css";
+
 function Navigation(props){
     return ( <>
         <nav class='nav' >
@@ -15,6 +17,7 @@ function Navigation(props){
         </>
     );
 }
+
 
 Navigation.defaultProps = {
     title: "React notes" 

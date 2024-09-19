@@ -2,15 +2,22 @@ import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import ReactDOM from 'react-dom';
 import Navigation from './navigation';
- import Paragraph from './paragraph';
- import { SecodPara,ThirdPara } from './paragraph';
+import Paragraph from './paragraph';
+import Bootstrap from './Bootstrap';
+import { SecodPara,ThirdPara } from './paragraph';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import * as data from './paragraph';
+import Activity from './Activity';
+import Propvalidation from './propvalidation';
 
-ReactDOM.render(<>
-    <Paragraph title = "this is " /> <SecodPara/> <ThirdPara/>
-    </>,document.getElementById("root") 
-);
+// ReactDOM.render(<>
+//     <Paragraph title = "this is " /> <SecodPara/> <ThirdPara/>
+//     </>,document.getElementById("root") 
+// );
 
+// Render the component
+ReactDOM.render(<Activity />, document.getElementById("root"));
 // to import everything in data object as data
 
 // ReactDOM.render(<>
@@ -21,9 +28,12 @@ ReactDOM.render(<>
 // );
 
 
-ReactDOM.render(
-    <Navigation/>,document.getElementById("r")
-);
+// ReactDOM.render(
+//     <Navigation/>,document.getElementById("r")
+// );
+// ReactDOM.render(
+//     <Bootstrap/>,document.getElementById("r")
+// );
 
 // ReactDOM.render(
 //    <>
@@ -58,3 +68,4 @@ document.getElementbyId("root").appendChild(h1); */
 // // to log results (for example: reportWebVitals(console.log))
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
+

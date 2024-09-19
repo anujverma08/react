@@ -1,0 +1,27 @@
+table {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+  caption {
+    font-size: 1.5em;
+    margin-left : 20px auto ;   
+
+  }
+  .p1 {
+    width: 50%;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  
