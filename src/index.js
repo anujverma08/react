@@ -11,18 +11,19 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import Activity from './Activity';
 // import Propvalidation from './propvalidation';
 // import Counter from './Counter';
-import Hook from './Counterf';
-import Useeffect from './Useeffect';
+// import Hook from './Counterf';
+// import Useeffect from './Useeffect';
 // import Input from './Input';
-import App from './App';
+// import App from './App';
 
+import Reducer from './useReducer';
 // ReactDOM.render(<>
 //     <Paragraph title = "this is " /> <SecodPara/> <ThirdPara/>
 //     </>,document.getElementById("root") 
 // );
 
 // Render the component
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<Reducer/>, document.getElementById("root"));
 // to import everything in data object as data
 
 // ReactDOM.render(<>
