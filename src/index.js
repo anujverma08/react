@@ -11,8 +11,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import Activity from './Activity';
 // import Propvalidation from './propvalidation';
 // import Counter from './Counter';
-// import Hook from './Counterf';
-import Input from './Input';
+import Hook from './Counterf';
+import Useeffect from './Useeffect';
+// import Input from './Input';
+import App from './App';
 
 // ReactDOM.render(<>
 //     <Paragraph title = "this is " /> <SecodPara/> <ThirdPara/>
@@ -20,7 +22,7 @@ import Input from './Input';
 // );
 
 // Render the component
-ReactDOM.render(<Input/>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
 // to import everything in data object as data
 
 // ReactDOM.render(<>
