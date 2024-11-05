@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useCallback,useState } from 'react';
 
-export default function UseCallback() {
-  return (
-    <div>UseCallback</div>
-  )
+
+const Usecallback = () => {
+    const [count,setcount] = useState(0);
+
+    const increment = () => {
+        setcount(count + 1);
+    }
+
+    const decrement = () => {
+        if(count > 0){
+            setcount(count - 1);
+        }
+    }
+
 }

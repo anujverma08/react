@@ -7,6 +7,8 @@ import ReactDOM from 'react-dom';
 // import { SecodPara,ThirdPara } from './paragraph';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import Addition from './Addition';
+// import App from './Router/Router1';
 // import * as data from './paragraph';
 // import Activity from './Activity';
 // import Propvalidation from './propvalidation';
@@ -14,16 +16,21 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import Hook from './Counterf';
 // import Useeffect from './Useeffect';
 // import Input from './Input';
-// import App from './App';
+import App from './App';
 
-import Reducer from './useReducer';
+
+
+// import Reducer from './useReducer';
+// import CounterComponent from './CounterComponent';
+
+// import Formvalidation from './form/Formvalidation';
 // ReactDOM.render(<>
 //     <Paragraph title = "this is " /> <SecodPara/> <ThirdPara/>
 //     </>,document.getElementById("root") 
 // );
 
 // Render the component
-ReactDOM.render(<Reducer/>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
 // to import everything in data object as data
 
 // ReactDOM.render(<>
