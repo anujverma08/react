@@ -16,7 +16,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import Hook from './Counterf';
 // import Useeffect from './Useeffect';
 // import Input from './Input';
-import App from './App';
+import Router2 from './Router/Router2';
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -30,7 +31,12 @@ import App from './App';
 // );
 
 // Render the component
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(
+    <BrowserRouter>
+        <Router2 />
+    </BrowserRouter>,
+    document.getElementById('root')
+);
 // to import everything in data object as data
 
 // ReactDOM.render(<>
